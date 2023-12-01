@@ -2,9 +2,9 @@ const Mongoose = require("mongoose");
 
 const debug = require('debug')("app:database");
 
-const dbhost = process.env.DBHOST || "localhost";
+/*const dbhost = process.env.DBHOST || "localhost";
 const dbport = process.env.DBPORT || "27017";
-const dbname = process.env.DBNAME || "studium";
+const dbname = process.env.DBNAME || "studium";*/
 
 const dburi = process.env.DBURI || 'mongodb+srv://Kstro:r2qpMCJwo8oddD37@studium.rcn9oqq.mongodb.net/?retryWrites=true&w=majority';
 
